@@ -26,6 +26,14 @@ export const appRoutes: Route[] = [
     } as WebElementWrapperOption,
   },
   {
+    path: 'support',
+    component: WebElementWrapperComponent,
+    data: {
+      loadRemoteBunder: () => import('support/Module'),
+      selector: 'app-root-support',
+    } as WebElementWrapperOption,
+  },
+  {
     path: '',
     component: NxWelcomeComponent,
   },
