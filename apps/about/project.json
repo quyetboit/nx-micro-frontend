@@ -51,7 +51,7 @@
       "options": {
         "buildTarget": "about:build",
         "hmr": true,
-        "port": 4200
+        "port": 4203
       },
       "configurations": {
         "development": {
@@ -89,7 +89,7 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "about:build",
-        "port": 4200
+        "port": 4203
       },
       "configurations": {
         "development": {
